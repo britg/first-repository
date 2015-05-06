@@ -61,7 +61,7 @@ def test_roll(dice_array)
     end
     re_roll_dice
   else
-    puts "FARKLE! Bummer, your turn is over!"
+    puts "\n\nFARKLE! Bummer, your turn is over!"
     $farkle = true
     end_and_score
   end
