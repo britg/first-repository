@@ -29,7 +29,7 @@ module Farkle
     end
 
     def dice_array
-      @dice_array ||= @dice_hash.values
+      @dice_hash.values
     end
 
     def straight?
