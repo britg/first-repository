@@ -3,5 +3,8 @@ end
 
 Dir["./farkle/*.rb"].each {|file| require file }
 
-game = Farkle::Game.new
-game.start
+# To start a game do:
+# >irb
+# irb> require "./farkle"
+# irb> game = Farkle::Game.new
+# irb> game.start

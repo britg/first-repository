@@ -1,3 +1,5 @@
-class Farkle::Score
+module Farkle
+  class Score
 
+  end
 end
