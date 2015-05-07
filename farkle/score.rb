@@ -1,0 +1,3 @@
+class Farkle::Score
+
+end
